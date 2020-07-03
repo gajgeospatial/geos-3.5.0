@@ -1,0 +1,16 @@
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/ALL_BUILD.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/Continuous.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/Experimental.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/Nightly.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/NightlyMemoryCheck.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/tests/bigtest/CMakeFiles/TestSweepLineSpeed.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/ZERO_CHECK.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/tests/bigtest/CMakeFiles/bug234.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/check.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/src/CMakeFiles/geos.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/src/CMakeFiles/geos-static.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/capi/CMakeFiles/geos_c.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/tests/unit/CMakeFiles/geos_unit.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/tests/xmltester/CMakeFiles/simplewkttester.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/uninstall.dir
+D:/Development/op3d_active/geos-3.5.0/msvc/tests/xmltester/CMakeFiles/xmltester.dir

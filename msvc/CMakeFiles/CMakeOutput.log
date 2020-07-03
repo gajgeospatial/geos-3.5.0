@@ -1,0 +1,556 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:19 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:20 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec964348356.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:21 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec964348356.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec964348356.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec964348356.dir\Debug\cmTryCom.31508073.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec964348356.dir\Debug\cmTryCom.31508073.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec964348356.dir\Debug\\" /Fd"cmTryCompileExec964348356.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec964348356.dir\Debug\\" /Fd"cmTryCompileExec964348356.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec964348356.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec964348356.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec964348356.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec964348356.dir\Debug\testCCompiler.obj
+  cmTryCompileExec964348356.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec964348356.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec964348356.dir\Debug\cmTryCom.31508073.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec964348356.dir\Debug\cmTryCom.31508073.tlog\cmTryCompileExec964348356.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec964348356.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1270710629.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:22 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1270710629.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1270710629.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1270710629.dir\Debug\cmTryCom.3E650C26.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1270710629.dir\Debug\cmTryCom.3E650C26.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1270710629.dir\Debug\\" /Fd"cmTryCompileExec1270710629.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1270710629.dir\Debug\\" /Fd"cmTryCompileExec1270710629.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1270710629.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1270710629.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1270710629.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1270710629.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec1270710629.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1270710629.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1270710629.dir\Debug\cmTryCom.3E650C26.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1270710629.dir\Debug\cmTryCom.3E650C26.tlog\cmTryCompileExec1270710629.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1270710629.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec608041831.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:23 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec608041831.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec608041831.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec608041831.dir\Debug\cmTryCom.E67220B8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec608041831.dir\Debug\cmTryCom.E67220B8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec608041831.dir\Debug\\" /Fd"cmTryCompileExec608041831.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec608041831.dir\Debug\\" /Fd"cmTryCompileExec608041831.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec608041831.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec608041831.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec608041831.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec608041831.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec608041831.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec608041831.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec608041831.dir\Debug\cmTryCom.E67220B8.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec608041831.dir\Debug\cmTryCom.E67220B8.tlog\cmTryCompileExec608041831.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec608041831.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec497195868.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:24 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec497195868.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec497195868.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec497195868.dir\Debug\cmTryCom.1A010444.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec497195868.dir\Debug\cmTryCom.1A010444.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec497195868.dir\Debug\\" /Fd"cmTryCompileExec497195868.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec497195868.dir\Debug\\" /Fd"cmTryCompileExec497195868.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec497195868.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec497195868.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec497195868.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec497195868.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec497195868.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec497195868.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec497195868.dir\Debug\cmTryCom.1A010444.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec497195868.dir\Debug\cmTryCom.1A010444.tlog\cmTryCompileExec497195868.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec497195868.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1648309841.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:25 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1648309841.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1648309841.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1648309841.dir\Debug\cmTryCom.F296A27A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1648309841.dir\Debug\cmTryCom.F296A27A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1648309841.dir\Debug\\" /Fd"cmTryCompileExec1648309841.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1648309841.dir\Debug\\" /Fd"cmTryCompileExec1648309841.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1648309841.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1648309841.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1648309841.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1648309841.dir\Debug\CheckIncludeFiles.obj
+  cmTryCompileExec1648309841.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1648309841.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1648309841.dir\Debug\cmTryCom.F296A27A.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1648309841.dir\Debug\cmTryCom.F296A27A.tlog\cmTryCompileExec1648309841.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1648309841.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.82
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1311059870.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:26 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1311059870.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1311059870.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1311059870.dir\Debug\cmTryCom.86B685E1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1311059870.dir\Debug\cmTryCom.86B685E1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1311059870.dir\Debug\\" /Fd"cmTryCompileExec1311059870.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1311059870.dir\Debug\\" /Fd"cmTryCompileExec1311059870.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1311059870.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1311059870.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1311059870.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1311059870.dir\Debug\CheckIncludeFiles.obj
+  cmTryCompileExec1311059870.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1311059870.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1311059870.dir\Debug\cmTryCom.86B685E1.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1311059870.dir\Debug\cmTryCom.86B685E1.tlog\cmTryCompileExec1311059870.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1311059870.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.75
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4106203326.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:28 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4106203326.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4106203326.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4106203326.dir\Debug\cmTryCom.F28C45EF.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4106203326.dir\Debug\cmTryCom.F28C45EF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4106203326.dir\Debug\\" /Fd"cmTryCompileExec4106203326.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4106203326.dir\Debug\\" /Fd"cmTryCompileExec4106203326.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4106203326.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4106203326.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4106203326.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4106203326.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec4106203326.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4106203326.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4106203326.dir\Debug\cmTryCom.F28C45EF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4106203326.dir\Debug\cmTryCom.F28C45EF.tlog\cmTryCompileExec4106203326.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4106203326.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.73
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3354094701.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:29 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3354094701.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3354094701.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3354094701.dir\Debug\cmTryCom.4B48B40F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3354094701.dir\Debug\cmTryCom.4B48B40F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3354094701.dir\Debug\\" /Fd"cmTryCompileExec3354094701.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3354094701.dir\Debug\\" /Fd"cmTryCompileExec3354094701.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3354094701.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3354094701.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3354094701.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3354094701.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3354094701.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3354094701.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3354094701.dir\Debug\cmTryCom.4B48B40F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3354094701.dir\Debug\cmTryCom.4B48B40F.tlog\cmTryCompileExec3354094701.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3354094701.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.74
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec497336831.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:30 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec497336831.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec497336831.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec497336831.dir\Debug\cmTryCom.ED0B3343.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec497336831.dir\Debug\cmTryCom.ED0B3343.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec497336831.dir\Debug\\" /Fd"cmTryCompileExec497336831.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CheckTypeSize\HAVE_INT64_T_64.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec497336831.dir\Debug\\" /Fd"cmTryCompileExec497336831.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CheckTypeSize\HAVE_INT64_T_64.c"
+  
+  HAVE_INT64_T_64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec497336831.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec497336831.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec497336831.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec497336831.dir\Debug\HAVE_INT64_T_64.obj
+  cmTryCompileExec497336831.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec497336831.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec497336831.dir\Debug\cmTryCom.ED0B3343.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec497336831.dir\Debug\cmTryCom.ED0B3343.tlog\cmTryCompileExec497336831.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec497336831.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.88
+
+
+Performing C++ SOURCE FILE Test HAVE_ISNAN succeded with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2577254476.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:32 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2577254476.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2577254476.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2577254476.dir\Debug\cmTryCom.7E2A298F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2577254476.dir\Debug\cmTryCom.7E2A298F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ISNAN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2577254476.dir\Debug\\" /Fd"cmTryCompileExec2577254476.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ISNAN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2577254476.dir\Debug\\" /Fd"cmTryCompileExec2577254476.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  
+  src.cxx
+src.cxx(7): warning C4189: 'i' : local variable is initialized but not referenced [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2577254476.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2577254476.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2577254476.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2577254476.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2577254476.dir\Debug\src.obj
+  cmTryCompileExec2577254476.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2577254476.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2577254476.dir\Debug\cmTryCom.7E2A298F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2577254476.dir\Debug\cmTryCom.7E2A298F.tlog\cmTryCompileExec2577254476.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2577254476.vcxproj" (default targets).
+
+Build succeeded.
+
+"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2577254476.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.cxx(7): warning C4189: 'i' : local variable is initialized but not referenced [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2577254476.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+Source file was:
+
+#include <float.h>
+
+int main()
+{
+#ifndef _isnan
+    int i = sizeof(&_isnan);
+#endif
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_FINITE succeded with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1744351159.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:33 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1744351159.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1744351159.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1744351159.dir\Debug\cmTryCom.E5AA0A23.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1744351159.dir\Debug\cmTryCom.E5AA0A23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_FINITE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1744351159.dir\Debug\\" /Fd"cmTryCompileExec1744351159.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_FINITE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1744351159.dir\Debug\\" /Fd"cmTryCompileExec1744351159.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  
+  src.cxx
+src.cxx(7): warning C4189: 'i' : local variable is initialized but not referenced [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1744351159.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1744351159.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1744351159.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1744351159.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1744351159.dir\Debug\src.obj
+  cmTryCompileExec1744351159.vcxproj -> D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1744351159.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1744351159.dir\Debug\cmTryCom.E5AA0A23.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1744351159.dir\Debug\cmTryCom.E5AA0A23.tlog\cmTryCompileExec1744351159.lastbuildstate".
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1744351159.vcxproj" (default targets).
+
+Build succeeded.
+
+"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1744351159.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.cxx(7): warning C4189: 'i' : local variable is initialized but not referenced [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1744351159.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+Source file was:
+
+#include <float.h>
+
+int main()
+{
+#ifndef _finite
+    int i = sizeof(&_finite);
+#endif
+    return 0;
+}
+

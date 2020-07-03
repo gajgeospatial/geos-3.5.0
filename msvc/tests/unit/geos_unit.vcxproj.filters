@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\AngleTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\CGAlgorithms\computeOrientationTest.cpp">
+      <Filter>tests\unit\algorithm\CGAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\CGAlgorithms\isCCWTest.cpp">
+      <Filter>tests\unit\algorithm\CGAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\CGAlgorithms\isPointInRingTest.cpp">
+      <Filter>tests\unit\algorithm\CGAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\CGAlgorithms\signedAreaTest.cpp">
+      <Filter>tests\unit\algorithm\CGAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\ConvexHullTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\distance\DiscreteHausdorffDistanceTest.cpp">
+      <Filter>tests\unit\algorithm\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\InteriorPointAreaTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\PointLocatorTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\RobustLineIntersectionTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\algorithm\RobustLineIntersectorTest.cpp">
+      <Filter>tests\unit\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSBufferTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSClipByRectTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSContainsTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSConvexHullTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSCoordSeqTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSDelaunayTriangulationTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSDistanceTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSGeomFromWKBTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSGeomToWKTTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSGeom_create.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSGeom_extractUniquePointsTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSGetCentroidTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSInterruptTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSIntersectionTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSIntersectsTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSisClosedTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSisValidDetailTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSLineString_PointTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSNearestPointsTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSNodeTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSOffsetCurveTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSOrientationIndex.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSPointOnSurfaceTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSPolygonizer_getCutEdgesTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSPreparedGeometryTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSRelateBoundaryNodeRuleTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSRelatePatternMatchTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSSharedPathsTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSSimplifyTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSSnapTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSUnaryUnionTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSVoronoiDiagramTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\capi\GEOSWithinTest.cpp">
+      <Filter>tests\unit\capi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\CoordinateArraySequenceFactoryTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\CoordinateArraySequenceTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\CoordinateListTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\CoordinateTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\DimensionTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\EnvelopeTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\Geometry\clone.cpp">
+      <Filter>tests\unit\geom\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\Geometry\coversTest.cpp">
+      <Filter>tests\unit\geom\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\Geometry\equalsTest.cpp">
+      <Filter>tests\unit\geom\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\Geometry\isRectangleTest.cpp">
+      <Filter>tests\unit\geom\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\Geometry\normalize.cpp">
+      <Filter>tests\unit\geom\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\GeometryFactoryTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\IntersectionMatrixTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\LinearRingTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\LineSegmentTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\LineStringTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\LocationTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\MultiLineStringTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\MultiPointTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\MultiPolygonTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\PointTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\PolygonTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\PrecisionModelTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\prep\PreparedGeometryFactoryTest.cpp">
+      <Filter>tests\unit\geom\prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\TriangleTest.cpp">
+      <Filter>tests\unit\geom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geom\util\GeometryExtracterTest.cpp">
+      <Filter>tests\unit\geom\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\geos_unit.cpp">
+      <Filter>tests\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\index\quadtree\DoubleBitsTest.cpp">
+      <Filter>tests\unit\index\quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\ByteOrderValuesTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\WKBReaderTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\WKBWriterTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\WKTReaderTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\WKTWriterTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\io\WriterTest.cpp">
+      <Filter>tests\unit\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\linearref\LengthIndexedLineTest.cpp">
+      <Filter>tests\unit\linearref</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\BasicSegmentStringTest.cpp">
+      <Filter>tests\unit\noding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\NodedSegmentStringTest.cpp">
+      <Filter>tests\unit\noding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\OrientedCoordinateArray.cpp">
+      <Filter>tests\unit\noding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\SegmentNodeTest.cpp">
+      <Filter>tests\unit\noding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\SegmentPointComparatorTest.cpp">
+      <Filter>tests\unit\noding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\snapround\HotPixelTest.cpp">
+      <Filter>tests\unit\noding\snapround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\noding\snapround\MCIndexSnapRounderTest.cpp">
+      <Filter>tests\unit\noding\snapround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\buffer\BufferBuilderTest.cpp">
+      <Filter>tests\unit\operation\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\buffer\BufferOpTest.cpp">
+      <Filter>tests\unit\operation\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\buffer\BufferParametersTest.cpp">
+      <Filter>tests\unit\operation\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\distance\DistanceOpTest.cpp">
+      <Filter>tests\unit\operation\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\intersection\RectangleIntersectionTest.cpp">
+      <Filter>tests\unit\operation\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\IsSimpleOpTest.cpp">
+      <Filter>tests\unit\operation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\linemerge\LineMergerTest.cpp">
+      <Filter>tests\unit\operation\linemerge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\linemerge\LineSequencerTest.cpp">
+      <Filter>tests\unit\operation\linemerge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\overlay\snap\GeometrySnapperTest.cpp">
+      <Filter>tests\unit\operation\overlay\snap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\overlay\snap\LineStringSnapperTest.cpp">
+      <Filter>tests\unit\operation\overlay\snap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\overlay\validate\FuzzyPointLocatorTest.cpp">
+      <Filter>tests\unit\operation\overlay\validate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\overlay\validate\OffsetPointGeneratorTest.cpp">
+      <Filter>tests\unit\operation\overlay\validate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\overlay\validate\OverlayResultValidatorTest.cpp">
+      <Filter>tests\unit\operation\overlay\validate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\polygonize\PolygonizeTest.cpp">
+      <Filter>tests\unit\operation\polygonize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\sharedpaths\SharedPathsOpTest.cpp">
+      <Filter>tests\unit\operation\sharedpaths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\union\CascadedPolygonUnionTest.cpp">
+      <Filter>tests\unit\operation\union</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\union\UnaryUnionOpTest.cpp">
+      <Filter>tests\unit\operation\union</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\valid\IsValidTest.cpp">
+      <Filter>tests\unit\operation\valid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\valid\ValidClosedRingTest.cpp">
+      <Filter>tests\unit\operation\valid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\operation\valid\ValidSelfTouchingRingFormingHoleTest.cpp">
+      <Filter>tests\unit\operation\valid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\precision\GeometryPrecisionReducerTest.cpp">
+      <Filter>tests\unit\precision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\precision\SimpleGeometryPrecisionReducerTest.cpp">
+      <Filter>tests\unit\precision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\simplify\DouglasPeuckerSimplifierTest.cpp">
+      <Filter>tests\unit\simplify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\simplify\TopologyPreservingSimplifierTest.cpp">
+      <Filter>tests\unit\simplify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\triangulate\DelaunayTest.cpp">
+      <Filter>tests\unit\triangulate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\triangulate\quadedge\QuadEdgeSubdivisionTest.cpp">
+      <Filter>tests\unit\triangulate\quadedge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\triangulate\quadedge\QuadEdgeTest.cpp">
+      <Filter>tests\unit\triangulate\quadedge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\triangulate\quadedge\VertexTest.cpp">
+      <Filter>tests\unit\triangulate\quadedge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\triangulate\VoronoiTest.cpp">
+      <Filter>tests\unit\triangulate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tests\unit\util\UniqueCoordinateArrayFilterTest.cpp">
+      <Filter>tests\unit\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests\unit\operation\overlay\snap">
+      <UniqueIdentifier>{71E1763A-ACFA-4B80-92F1-6A452191E01C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\overlay\validate">
+      <UniqueIdentifier>{ED681053-31BF-4B3A-A4B4-F05982D97BE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\algorithm\CGAlgorithms">
+      <UniqueIdentifier>{804C9E36-4DEB-4304-8270-E21C888A1303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\algorithm\distance">
+      <UniqueIdentifier>{423287F2-9241-40FF-9743-A2430F43863E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit">
+      <UniqueIdentifier>{2C46D166-8482-47AF-BCAA-7533C84C33BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\triangulate\quadedge">
+      <UniqueIdentifier>{9906477D-B919-41DB-B1EB-42F1F83C5C6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\noding\snapround">
+      <UniqueIdentifier>{B1AF1A76-B512-4524-8458-2216F4B2513B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\index\quadtree">
+      <UniqueIdentifier>{25D826E8-4063-4C51-9FBD-FD116163FB10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\geom\Geometry">
+      <UniqueIdentifier>{3BA88B85-808A-49E8-B2BD-7687EEA30E76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\geom\prep">
+      <UniqueIdentifier>{8AE2A0CC-AAEF-4185-BB0D-D10B2058D247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\geom\util">
+      <UniqueIdentifier>{C9D5D590-49EE-4523-81F5-4245143F3ACF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{6BFBF777-9A15-4665-A541-2366D545373E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\algorithm">
+      <UniqueIdentifier>{CFD7B99C-EDD9-40B2-ACCD-047CE29840BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\capi">
+      <UniqueIdentifier>{977D920E-01E4-4B17-8F76-EF757C826281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\geom">
+      <UniqueIdentifier>{1F65A6ED-10D5-4E79-9780-353811FCA27D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\index">
+      <UniqueIdentifier>{867FB419-E3A5-4040-9BF7-FF1F6CD9D5B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\io">
+      <UniqueIdentifier>{ABC89EF4-CC1A-47D6-8A22-29FFAAFCEE09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\linearref">
+      <UniqueIdentifier>{DED7C2AB-86AA-4A23-B9F6-293C3FF5B931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\noding">
+      <UniqueIdentifier>{F1D370A7-B1B8-42CD-831C-9236C8E58839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation">
+      <UniqueIdentifier>{45D2BFF0-F292-4AEC-B4D0-6ECECED2C2BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\precision">
+      <UniqueIdentifier>{39328F1A-1075-4317-AD04-7CB175A0D7C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\simplify">
+      <UniqueIdentifier>{9681A727-608B-44AA-8C21-E5A897FD70DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\triangulate">
+      <UniqueIdentifier>{3AB24A41-8DF3-4BE0-9E8B-B3294DEC18AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\util">
+      <UniqueIdentifier>{4F8C4395-3E1B-42C4-BC41-B29E364012BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\buffer">
+      <UniqueIdentifier>{AAB79237-A614-4AED-89F5-9CE9B11D4685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\distance">
+      <UniqueIdentifier>{2D425BBD-6A90-4A82-B478-0C6380A1BC26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\intersection">
+      <UniqueIdentifier>{CCCA0C2D-6B59-49E7-8EB7-E9C04B8EEDD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\linemerge">
+      <UniqueIdentifier>{E58D706D-0621-4BBB-94E5-42149BD496DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\overlay">
+      <UniqueIdentifier>{28DED5B2-EC58-47AD-A752-B8C56E1C6FC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\polygonize">
+      <UniqueIdentifier>{E51EDCA6-C729-429F-B06B-044B5040F8D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\sharedpaths">
+      <UniqueIdentifier>{327B85F8-A33E-49DA-BB18-77053FB2208E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\union">
+      <UniqueIdentifier>{D2A50FFF-9827-43E9-9632-8F631B6DDFA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\unit\operation\valid">
+      <UniqueIdentifier>{2F10C43C-2722-4DAF-A0B0-83E97D1B57C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

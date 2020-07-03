@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+D:/Development/op3d_active/geos-3.5.0/CMakeLists.txt
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+D:/Development/op3d_active/geos-3.5.0/cmake/modules/CheckPrototypeExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+D:/Development/op3d_active/geos-3.5.0/include/geos/platform.h.cmake
+D:/Development/op3d_active/geos-3.5.0/include/geos/version.h.in
+D:/Development/op3d_active/geos-3.5.0/capi/geos_c.h.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTest.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTestUseLaunchers.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTestTargets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/DartConfiguration.tcl.in
+D:/Development/op3d_active/geos-3.5.0/cmake/modules/GenerateSourceGroups.cmake
+D:/Development/op3d_active/geos-3.5.0/cmake/cmake_uninstall.cmake.in

@@ -1,0 +1,145 @@
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1286499640.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:27 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1286499640.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1286499640.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1286499640.dir\Debug\cmTryCom.F7110280.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1286499640.dir\Debug\cmTryCom.F7110280.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1286499640.dir\Debug\\" /Fd"cmTryCompileExec1286499640.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1286499640.dir\Debug\\" /Fd"cmTryCompileExec1286499640.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'ieeefp.h': No such file or directory [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1286499640.vcxproj]
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1286499640.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1286499640.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'ieeefp.h': No such file or directory [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1286499640.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.42
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Performing C++ SOURCE FILE Test HAVE_STD_ISNAN failed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1292375806.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:31 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1292375806.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1292375806.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1292375806.dir\Debug\cmTryCom.951F5C21.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1292375806.dir\Debug\cmTryCom.951F5C21.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_ISNAN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1292375806.dir\Debug\\" /Fd"cmTryCompileExec1292375806.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_ISNAN /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1292375806.dir\Debug\\" /Fd"cmTryCompileExec1292375806.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  
+  src.cxx
+src.cxx(7): error C2070: 'overloaded-function': illegal sizeof operand [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1292375806.vcxproj]
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1292375806.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1292375806.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.cxx(7): error C2070: 'overloaded-function': illegal sizeof operand [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1292375806.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.51
+
+Source file was:
+
+#include <cmath>
+
+int main()
+{
+#ifndef isnan
+    int i = sizeof(&isnan);
+#endif
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_STD_ISFINITE failed with the following output:
+Change Dir: D:/Development/op3d_active/geos-3.5.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1559860764.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/31/2015 5:02:33 PM.
+Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1559860764.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1559860764.dir\Debug\".
+  Creating directory "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1559860764.dir\Debug\cmTryCom.DF9DC4F1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1559860764.dir\Debug\cmTryCom.DF9DC4F1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_ISFINITE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1559860764.dir\Debug\\" /Fd"cmTryCompileExec1559860764.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_ISFINITE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1559860764.dir\Debug\\" /Fd"cmTryCompileExec1559860764.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  
+  src.cxx
+src.cxx(7): error C2070: 'overloaded-function': illegal sizeof operand [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1559860764.vcxproj]
+Done Building Project "D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1559860764.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1559860764.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.cxx(7): error C2070: 'overloaded-function': illegal sizeof operand [D:\Development\op3d_active\geos-3.5.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1559860764.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.46
+
+Source file was:
+
+#include <cmath>
+
+int main()
+{
+#ifndef isfinite
+    int i = sizeof(&isfinite);
+#endif
+    return 0;
+}
+

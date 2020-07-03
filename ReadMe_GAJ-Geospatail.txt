@@ -1,0 +1,1 @@
+This project should be installed as GEOS_DIR with ProjectTool.
